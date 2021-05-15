@@ -21,5 +21,7 @@ Run it
 $ npm start # or yarn start
 ```
 
-## Steps
-Each step is a branch. Check out to the step you want to test.
+## Traslator
+
+If you want to convert multiple string of your choice have a look at my [`translation_script`](https://replit.com/@Samriddhi25/Translator#main.py)
+

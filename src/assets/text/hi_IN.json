@@ -1,0 +1,16 @@
+{
+    "MSG_NO_ITEMS": "कोई वस्तु नहीं है।",
+    "INFO_SHORTCUT_KEYS": "एक नया आइटम बनाने के लिए `/` को `/` दबाएं।",
+    "INFO_CANCEL_SHORTCUT_KEY": "रद्द करने के लिए `Esc` दबाएँ।",
+    "TITLE": "करने के लिए काम",
+    "SEARCH": "खोज",
+    "ADD_NEW": "नया जोड़ो",
+    "ITEM_LEFT": " आइटम छोड़ दिया",
+    "ALL": "सब",
+    "ACTIVE": "सक्रिय",
+    "COMPLETED": "पूरा हुआ",
+    "LANGUAGE": "भाषा:",
+    "ENGLISH": "अंग्रेज़ी",
+    "HINDI": "हिंदी"
+
+}

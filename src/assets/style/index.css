@@ -116,6 +116,10 @@ footer .buttons {
     background: url(../images/search.svg) no-repeat center;
 }
 
+.buttons .lang {
+    background: url(../images/globe.svg) no-repeat center;
+}
+
 .alert.alert-info {
     margin: 10px 0;
     padding: 10px;
@@ -123,4 +127,10 @@ footer .buttons {
     background: #f2f2f2;
     border: 1px solid rgba(229, 229, 229, 0.5);
     color: #888;
+}
+
+.multi-lang {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
 }

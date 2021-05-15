@@ -1,9 +1,9 @@
 import React from 'react';
 import {MODE_NONE} from '../../services/mode';
-import {INFO_SHORTCUT_KEYS, INFO_CANCEL_SHORTCUT_KEY} from '../../assets/text/en_US';
+import { useTranslation } from 'react-i18next';
 
 export default function Info(props) {
-    const message = props.mode === MODE_NONE ? INFO_SHORTCUT_KEYS : INFO_CANCEL_SHORTCUT_KEY;
+    const { t } = useTranslation();
 
-    return <p className="info">{message}</p>;
+    return <p className="info">{props.mode === MODE_NONE ? t('INFO_SHORTCUT_KEYS') : t('INFO_CANCEL_SHORTCUT_KEY')}</p>;
 }

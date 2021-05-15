@@ -1,0 +1,16 @@
+{
+    "MSG_NO_ITEMS": "There are no items.",
+    "INFO_SHORTCUT_KEYS": "Press `/` to search and `N` to create a new item.",
+    "INFO_CANCEL_SHORTCUT_KEY": "Press `Esc` to cancel.",
+    "TITLE": "THINGS TO DO",
+    "SEARCH": "Search",
+    "ADD_NEW": "Add New",
+    "ITEM_LEFT": " items left",
+    "ALL": "All",
+    "ACTIVE": "Active",
+    "COMPLETED": "Completed",
+    "LANGUAGE": "Language",
+    "ENGLISH": "English",
+    "HINDI": "Hindi"
+
+}

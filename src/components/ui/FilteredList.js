@@ -1,13 +1,13 @@
 import React from 'react';
 import TodoItem from './TodoItem';
-import {MSG_NO_ITEMS} from '../../assets/text/en_US';
+import { useTranslation } from 'react-i18next';
 
 export default function FilteredList(props) {
     const {items, changeStatus} = props;
-
+    const { t } = useTranslation();
     if (items.length === 0) {
         return (
-            <p className="alert alert-info">{MSG_NO_ITEMS}</p>
+            <p className="alert alert-info">{t('MSG_NO_ITEMS')}</p>
         );
     }
 
